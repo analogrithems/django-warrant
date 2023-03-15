@@ -1,4 +1,5 @@
 ## Django Warrant
+Note: This module has been forked from the original and updated to support python-3.10 and pycognito
 
 ### Install
 
