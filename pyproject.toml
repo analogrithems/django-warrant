@@ -8,12 +8,13 @@ packages = [{include = "django_warrant"}]
 
 [tool.poetry.dependencies]
 python = ">=3.7,<4"
+boto3 = ">=1.28.0"
 Django = ">=3.2,<4"
-django-braces = "1.11.0"
-django-crispy-forms = "1.14"
-django-extensions = "1.7.7"
-django-utils-six = "2.0"
-pycognito = "2022.12.0"
+django-braces = ">=1.11.0"
+django-crispy-forms = ">=1.14"
+django-extensions = ">=1.7.7"
+django-utils-six = ">=2.0"
+pycognito = ">=2023.1"
 
 
 [build-system]

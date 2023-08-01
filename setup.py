@@ -10,7 +10,7 @@ def parse_requirements(filename):
     return [line for line in lineiter if line and not line.startswith("#")]
 
 
-version = '0.2.0'
+version = '0.2.1'
 
 README="""Django library that uses the warrant python utility library to provide authentication via AWS Cognito."""
 
